@@ -1,0 +1,31 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "desc",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "keywords": [
+    "mern",
+    "node"
+  ],
+  "author": "Vova Nenashkin <nenashkinvov@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.16",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "concurrently": "^5.2.0"
+  }
+}
